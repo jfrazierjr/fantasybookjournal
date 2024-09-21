@@ -1,22 +1,21 @@
 {
-	"TYPES.JournalEntryPage.fantasy-book-journal.bookpage": "Fantasy Book Journal Page",
-	"FantasyBookJournal": {
-		"path": {
-			"FIELDS": {
-				"description": {
-					"hint": "Behavior hint",
-					"label": "Behavior label"
-				},
-				"img": {
-					"hint": "Behavior hint",
-					"label": "Behavior label"
-				},
-				"steps": {
-					"hint": "Behavior hint",
-					"label": "Behavior label"
-				}
-			}
-			}
-		}
-	}
+    "FantasyBookJournal": {
+        "path": {
+            "FIELDS": {
+                "description": {
+                    "hint": "Behavior hint",
+                    "label": "Behavior label"
+                },
+                "img": {
+                    "hint": "Behavior hint",
+                    "label": "Behavior label"
+                },
+                "steps": {
+                    "hint": "Behavior hint",
+                    "label": "Behavior label"
+                }
+            }
+        }
+    },
+    "TYPES.JournalEntryPage.fantasy-book-journal.bookpage": "Fantasy Book Journal Page"
 }
