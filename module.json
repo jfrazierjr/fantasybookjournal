@@ -1,0 +1,27 @@
+{
+  "id": "fantasy-book-journal",
+  "title": "Fantasy Book Journal",
+  "description": "A Module that provides a new quest page type.",
+  "version": "1.0.0",
+  "compatibility": {
+    "minimum": 12,
+    "verified": 12
+  },
+  "authors": [{"name": "JoeDaFrogman"}],
+  "esmodules": ["main.mjs"],
+  "languages": [{
+    "lang": "en",
+    "name": "English",
+    "path": "lang/en.json"
+  }],
+  "documentTypes": {
+    "JournalEntryPage": {
+      "bookpage": {
+        "htmlFields": ["description.long", "description.short"],
+        "filePathFields": {
+          "img": ["IMAGE"]
+        }
+      }
+    }
+  }
+}
